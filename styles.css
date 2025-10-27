@@ -1,0 +1,55 @@
+body {
+  background-color: #0f1424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.image-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* space between logo and input box */
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #070c1a;
+  border: 2px solid #2b3eff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 500px;
+}
+
+.input-wrapper input {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+
+  outline: none;
+}
+
+.input-wrapper button {
+  background-color: #2b3eff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.input-wrapper button:hover {
+  background-color: #4b5cff;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
